@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Passion One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: antiquewhite;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    margin: 30px;
+    font-size: 40px;
+}
+
+/* Navbar Styling */
+header {
+    position: sticky;
+    top:0;
+    background-color: rgb(21, 21, 21);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(32, 30, 31);
+    padding: 1px 25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+}
+
+/* Logo Styling */
+
+.logo {
+    position: relative;
+    margin-right: auto;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/*main*/
+
+.home{
+    background-color:rgb(94, 91, 93);
+    font-size: larger;
+    text-align: left;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 20px;
+    height: 50vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 7px 4px 38px 0px rgba(24, 23, 23, 0.54);
+}
+
+.about{
+    background-color: rgb(102, 101, 101);
+    font-size: larger;
+    text-align: left;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 20px;
+    height: 50vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 7px 4px 38px 0px rgba(0,0,0,0.54);
+}
+
+.services{
+    background-color: rgb(107, 106, 107);
+    font-size: larger;
+    text-align: left;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 20px;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 7px 4px 38px 0px rgba(0,0,0,0.54);
+}
+
+.contact{
+    background-color: rgb(95, 94, 94);
+    font-size: larger;
+    text-align: left;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 20px;
+    height: 50vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 7px 4px 38px 0px rgba(0,0,0,0.54);
+}
+
+.facilities{
+    background-color: rgb(95, 94, 94);
+    font-size: larger;
+    text-align: left;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 20px;
+    height: 20vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 7px 4px 38px 0px rgba(0,0,0,0.54);
+}
+
